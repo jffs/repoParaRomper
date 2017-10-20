@@ -8,7 +8,7 @@ class Program
 	{	
 		StringBuilder sb = new StringBuilder ();
 		for (int i = 0; i < 1000; i++)
-			sb.Append (i.ToString ());
+			sb.Appppend (i.ToString ());
 
 
 		sb.Append ("holaa").Append ("como vaa");
