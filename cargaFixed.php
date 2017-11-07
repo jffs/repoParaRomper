@@ -1,18 +1,1 @@
-<?php
- date_default_timezone_set('America/New_York');
-    $uploaded_type = $_FILES[ 'foto' ][ 'type' ]; 
-    $uploaded_name = $_FILES[ 'foto' ][ 'name' ]; 
-	$uploaded_ext  = substr( $uploaded_name, strrpos( $uploaded_name, '.' ) + 1); 
-
-   // if( ( $uploaded_type == "image/jpeg" || $uploaded_type == "image/png" )) { 
-if ( strtolower( $uploaded_ext ) == "jpg" || strtolower( $uploaded_ext ) == "jpeg" || strtolower( $uploaded_ext ) == "png" ){
-       
- $target_path  = "./imagenes/"; //Directorio donde se almacenarán las imagenes
-  $target_path .= basename( $_FILES[ 'foto' ][ 'name' ] ); 
-  move_uploaded_file($_FILES['foto']['tmp_name'],$target_path);
-  echo "La foto fue subida con exito!<br>";
-  echo "Podés encontrarla <a href=$target_path >aqui</a>";
-}
-  else echo "El archivo debe ser JPEG o PNG";
-
- ?>
+PD9waHAKIGRhdGVfZGVmYXVsdF90aW1lem9uZV9zZXQoJ0FtZXJpY2EvTmV3X1lvcmsnKTsKICAgICR1cGxvYWRlZF90eXBlID0gJF9GSUxFU1sgJ2ZvdG8nIF1bICd0eXBlJyBdOyAKICAgICR1cGxvYWRlZF9uYW1lID0gJF9GSUxFU1sgJ2ZvdG8nIF1bICduYW1lJyBdOyAKCSR1cGxvYWRlZF9leHQgID0gc3Vic3RyKCAkdXBsb2FkZWRfbmFtZSwgc3RycnBvcyggJHVwbG9hZGVkX25hbWUsICcuJyApICsgMSk7IAoKICAgLy8gaWYoICggJHVwbG9hZGVkX3R5cGUgPT0gImltYWdlL2pwZWciIHx8ICR1cGxvYWRlZF90eXBlID09ICJpbWFnZS9wbmciICkpIHsgCmlmICggc3RydG9sb3dlciggJHVwbG9hZGVkX2V4dCApID09ICJqcGciIHx8IHN0cnRvbG93ZXIoICR1cGxvYWRlZF9leHQgKSA9PSAianBlZyIgfHwgc3RydG9sb3dlciggJHVwbG9hZGVkX2V4dCApID09ICJwbmciICl7CiAgICAgICAKICR0YXJnZXRfcGF0aCAgPSAiLi9pbWFnZW5lcy8iOyAvL0RpcmVjdG9yaW8gZG9uZGUgc2UgYWxtYWNlbmFyw6FuIGxhcyBpbWFnZW5lcwogICR0YXJnZXRfcGF0aCAuPSBiYXNlbmFtZSggJF9GSUxFU1sgJ2ZvdG8nIF1bICduYW1lJyBdICk7IAogIG1vdmVfdXBsb2FkZWRfZmlsZSgkX0ZJTEVTWydmb3RvJ11bJ3RtcF9uYW1lJ10sJHRhcmdldF9wYXRoKTsKICBlY2hvICJMYSBmb3RvIGZ1ZSBzdWJpZGEgY29uIGV4aXRvITxicj4iOwogIGVjaG8gIlBvZMOpcyBlbmNvbnRyYXJsYSA8YSBocmVmPSR0YXJnZXRfcGF0aCA+YXF1aTwvYT4iOwp9CiAgZWxzZSBlY2hvICJFbCBhcmNoaXZvIGRlYmUgc2VyIEpQRUcgbyBQTkciOwoKID8+
