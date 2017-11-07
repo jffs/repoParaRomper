@@ -5,7 +5,6 @@
 <body>
  
  
-<center>
 <h1>Subir recuerdo de tu viaje más reciente </h1>
  <br><br>
     Ubicación: <input type=text name="nombre"><br><br>
