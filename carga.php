@@ -1,7 +1,3 @@
-<?php
- date_default_timezone_set('America/New_York');
-    $uploaded_type = $_FILES[ 'foto' ][ 'type' ]; 
-    $uploaded_name = $_FILES[ 'foto' ][ 'name' ]; 
 
   if( ( $uploaded_type == "image/jpeg" || $uploaded_type == "image/png" )) { 
   $target_path  = "./imagenes/"; //Directorio donde se almacenarán las imagenes
