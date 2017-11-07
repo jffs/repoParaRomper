@@ -1,5 +1,3 @@
-{	
-	//Para ejecutar con parametros ir a Ejecutar - > Ejecutar con -> Parámetros personalizados. 
 	public static void Main(string[] args)
 	{	StringBuilder sb = new StringBuilder ();
 		string s="";
