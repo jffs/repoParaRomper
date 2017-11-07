@@ -5,7 +5,6 @@
 <body>
  
  
-<form action="carga.php" method=post enctype="multipart/form-data">
 <center>
 <h1>Subir recuerdo de tu viaje más reciente </h1>
  <br><br>
