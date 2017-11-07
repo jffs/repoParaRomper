@@ -11,5 +11,3 @@
 
   echo "Podés encontrarla <a href=$target_path >aqui</a>";
 }
-  else echo "El archivo debe ser JPEG o PNG";
- ?>
