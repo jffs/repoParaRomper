@@ -26,10 +26,6 @@ class Program
 		DateTime posterior2 = DateTime.Now;
 		Console.WriteLine (posterior2.Ticks-anterior2.Ticks);
 
-		DateTime anteriorStr2 = DateTime.Now;
-		s = "holaa" + "como vaa";
-		DateTime posteriorStr2 = DateTime.Now;
-		Console.WriteLine (posteriorStr2.Ticks-anteriorStr2.Ticks);
 
 	}
 }
