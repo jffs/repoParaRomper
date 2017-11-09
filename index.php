@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>Entrega Vulnerabilidad en php</title>
 <body>
  
  
