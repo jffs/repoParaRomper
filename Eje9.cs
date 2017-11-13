@@ -22,6 +22,5 @@
 					Console.WriteLine ("{0} no es palíndromo", nombre);
 			}
 		} else
-			Console.WriteLine ("No se recibieron parametros");
 }
 }
