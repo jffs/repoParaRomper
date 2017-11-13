@@ -1,6 +1,3 @@
-{	
-	//Para ejecutar con parametros ir a Ejecutar - > Ejecutar con -> Parámetros personalizados. 
-	public static void Main(string[] args)
 	{	bool cumple;
 		int i;
 		Console.WriteLine ("Iniciando saludos");
