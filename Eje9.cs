@@ -13,11 +13,6 @@
 					i++;
 					j--;
 				}
-				if (cumple)
-					Console.WriteLine ("{0} es palíndromo", nombre);
-				else
-					Console.WriteLine ("{0} no es palíndromo", nombre);
-			}
 		} else
 }
 }
