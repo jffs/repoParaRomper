@@ -1,6 +1,3 @@
-<html>
-<head>
-<body>
  
  
     Foto: <input type=file name="foto">
