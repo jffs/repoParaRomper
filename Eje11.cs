@@ -1,12 +1,6 @@
 	public static void Main(string[] args)
 	{	StringBuilder sb = new StringBuilder ();
 		string s="";
-		/*Aca es mejor usar StringBuild que String */
-		DateTime anterior = DateTime.Now;
-		for (int i = 0; i < 10000; i++)
-			sb.Append (i.ToString ());
-		DateTime posterior = DateTime.Now;
-		Console.WriteLine (posterior.Ticks-anterior.Ticks);
 
 		DateTime anteriorStr = DateTime.Now;
 		for (int j = 0; j < 10000; j++)
